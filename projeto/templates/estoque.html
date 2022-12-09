@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+    <link href="../static/css/estoque_style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- TITULO (START)-->
+    <div class="header">
+        <div class="flex">
+            <h1 class="texto">Estoque para Eletro</h1>
+        </div>
+    </div>
+    <!-- TITULO (FIM)-->
+
+    <!-- GRADE (START)-->
+    <div class="flex">
+        <table class="tabela" id="table" >
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Quantidade</th>
+                    <th scope="col">Local</th>
+                    <th scope="col">Observação</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Remover</th>
+                </tr>
+            </thead>
+            <tbody id="tb-equipamentos">
+                <!--Aqui vão as linhas da tabela -->
+            </tbody>
+        </table>
+    </div>
+    <!-- GRADE (FIM)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
